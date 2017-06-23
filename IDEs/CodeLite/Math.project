@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Math" InternalType="Library">
+<CodeLite_Project Name="Math" InternalType="Library" Version="10.0.0">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
@@ -9,10 +9,12 @@
   <Dependencies/>
   <VirtualDirectory Name="src">
     <File Name="../../src/LinearRegression.cpp"/>
+    <File Name="../../src/LinearFunction.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="include">
     <File Name="../../include/LinearRegression.h"/>
     <File Name="../../include/Math.h"/>
+    <File Name="../../include/LinearFunction.h"/>
   </VirtualDirectory>
   <Settings Type="Dynamic Library">
     <GlobalSettings>
