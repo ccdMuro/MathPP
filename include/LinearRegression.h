@@ -39,5 +39,5 @@ private:
 	// store data points in std::vector<pair<double,double>> later on
 };
 
-};
-};
+}
+}
