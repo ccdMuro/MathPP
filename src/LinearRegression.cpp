@@ -1,4 +1,4 @@
-#include "LinearRegression.h"
+#include "ccdMathpp/LinearRegression.h"
 
 namespace Ccd
 {

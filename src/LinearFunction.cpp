@@ -1,4 +1,4 @@
-#include "LinearFunction.h"
+#include "ccdMathpp/LinearFunction.h"
 
 namespace Ccd
 {
