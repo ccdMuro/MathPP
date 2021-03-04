@@ -21,28 +21,6 @@ void LinearRegression::setYList ( std::vector<double> yValuesNew )
 	yValues = yValuesNew;
 }
 
-void LinearRegression::setXList ( Ccd::Json::Value& xList )
-{
-	xValues.clear();
-	for ( auto xItem : xList.toArray() ) {
-		if ( xItem.type() == Ccd::Json::ValueType::Int )
-			xValues.push_back ( xItem.toInt() );
-		else if ( xItem.type() == Ccd::Json::ValueType::Double )
-			xValues.push_back ( xItem.toDouble() );
-	}
-}
-
-void LinearRegression::setYList ( Ccd::Json::Value& yList )
-{
-	yValues.clear();
-	for ( auto yItem : yList.toArray() ) {
-		if ( yItem.type() == Ccd::Json::ValueType::Int )
-			yValues.push_back ( yItem.toInt() );
-		else if ( yItem.type() == Ccd::Json::ValueType::Double )
-			yValues.push_back ( yItem.toDouble() );
-	}
-}
-
 LinearFunktion LinearRegression::compute()
 {
 	int values = 0;		// count of values

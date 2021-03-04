@@ -4,8 +4,6 @@
 
 #include <vector>
 
-#include <JsonPP.h>
-
 namespace Ccd
 {
 namespace Math
@@ -22,9 +20,6 @@ public:
 
 	void setXList ( std::vector<double> xList );
 	void setYList ( std::vector<double> yList );
-
-	void setXList ( Ccd::Json::Value& xList );
-	void setYList ( Ccd::Json::Value& yList );
 
 	/* Compute method. Call if data is ready. */
 	LinearFunktion compute();
