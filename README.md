@@ -10,4 +10,4 @@ Features:
 
 Requirements
 ------------
-C++11/14 standard is required to compile the library.
+C++17 standard is required to compile the library.
