@@ -4,6 +4,7 @@ Math
 This C++ library is a collection of usefull math algorythms.
 
 Features:
+- Linear Function
 - Linear Regression
  
 
