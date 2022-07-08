@@ -22,7 +22,7 @@ Copyright © 2016, 2017, 2021 Karl Herbig
 
 [mit]: https://opensource.org/licenses/MIT
 
-== We're Using GitHub Under Protest ==
+## == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
 proprietary, trade-secret system that is not Free and Open Souce Software
